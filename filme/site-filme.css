@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+header{
+    background-image: url(https://d17lbu6bbzbdc8.cloudfront.net/wp-content/uploads/2020/12/26110155/melhores-filmes.jpg);
+    padding: 30px;
+}
+
+
+ .menu-header{  
+    justify-content: end; 
+    flex-wrap: wrap;
+display: flex;
+
+}
+.menu-header > li > a {
+    color: rgb(255, 255, 255); 
+    text-decoration: none; 
+    font-size: 15px;
+}
+.menu-header > li > a:hover{ 
+    color: rgb(255, 0, 0); 
+    transition: 0.8s; 
+    font-size: 20px;
+   
+}
+.menu-header > li {  
+    margin-left: 20px;
+}
+#sessao {
+    padding: 12rem;  
+    background: linear-gradient(180deg, #ffffff46 8.33%, rgba(0, 0, 0, 0.589) 100%),
+    url(https://olhardigital.com.br/wp-content/uploads/2022/08/jason-sexta-feira-13.webp); 
+    background-attachment: fixed;
+    height: 30rem;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#sessao > h1 {
+font-size: 45px;
+color: rgb(255, 255, 255);
+margin-left: 20vw;
+}
+#sessao > p  {
+   font-size: 25px;
+   color: #ffffff;
+}
+
+#sessao > button {
+    padding: 20px;
+    border-radius: 10px;
+    width: 10rem;
+    color: rgb(153, 19, 19);
+    border-color: rgb(153, 19, 19);
+    margin: 30px;
+    font-size: 15px;;
+margin-left: 27vw;
+}
+
+
+
+#sessao > button:hover {
+    color: rgb(255, 255, 255);
+    transition: 0.8s;
+    font-size: 20px;
+    background-color: rgb(153, 19, 19);
+;
+
+
+}
+
+    
+
+    .net {
+       
+        justify-content: end; 
+        flex-wrap: wrap; 
+    }
+    
+    .net > li > a { 
+       color: rgb(255, 255, 255);
+       text-decoration: none;
+       font-size: 50px;
+    }
+    
+    .net > li > a:hover {
+        color: rgba(255, 0, 0, 0.767); 
+        transition: 0.8s; 
+    }
+    .net > li {
+        margin-left: 40px; 
+    }
+
+.i4{
+
+ background-color: black;
+     background-repeat: no-repeat;  
+       align-items: center;
+       background-size: cover;
+       background-position: center;
+      color: rgb(255, 255, 255);
+
+}
+
+
+
+
+    .i4 > h4{
+        font-size: 28px;
+        margin-top: 10px;
+        text-align: center
+        ;
+    }
+
+    .i4 > h5 {
+        text-align: center;
+        font-size: 15px;
+    }
+
+
+    .i5{
+       background-image: linear-gradient(180deg, #ffffff46 8.33%, rgba(0, 0, 0, 0.589) 100%), url(https://cinepop.com.br/wp-content/uploads/2022/12/panico.webp);
+          background-repeat: no-repeat;  
+            align-items: center;
+            background-size: cover;
+            background-position: center;
+           color: rgb(255, 255, 255);
+           height: 30rem;
+           
+           background-attachment: fixed;
+     }
+     
+     
+     
+     
+         .i5 > h4{
+             font-size: 28px;
+             margin-top: 10px;
+             text-align: center;
+         }
+     
+         .i5 > h5 {
+             text-align: center;
+             font-size: 15px;
+         }
+     
+.i6{
+background-image: url(https://www.cafecomfilme.com.br/images/capaf/2020/07/olobisomem600.jpg);
+color: rgb(255, 255, 255);
+text-align: center;
+font-size: 30px;
+}
+
+.i6 {
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+   height: 30rem;
+  
+
+
+}
+
+
+
+
+
+    footer {    
+    padding: 80px;  
+    background-color: black;
+ background-position: bottom; 
+  background-repeat: no-repeat;  
+    height: 5rem;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+   color: aliceblue;
+   
+    }
+    
+    footer > ul {   
+        display: flex;  
+        justify-content: space-evenly; 
+    }
+    
+    
+    
+    .item-menu-footer {  
+        display: flex;  
+        align-items: center;  
+        margin-top: 30px;  
+    }
+    
+    .item-menu-footer > img { 
+        width: 34px;  
+        height: 34px;  
+    }
+    
+    .item-menu-footer > p { 
+       
+        font-size: 24px; 
+        font-weight: bold;
+        margin-left: 10px;
+    }
+
